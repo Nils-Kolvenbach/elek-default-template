@@ -1,0 +1,90 @@
+{
+    "name": "Default template",
+    "description": "The default template.",
+    "version": "0.0.1",
+    "author": {
+        "name": "Elek Org.",
+        "url": "https://www.elek.com/"
+    },
+    "license": {
+        "name": "GNU General Public License v2 or later",
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+    },
+    "tags": ["education", "blog", "portfolio"],
+    "shell": "/shell.hbs",
+    "styling": {
+        "colors": {
+            "primary": "#00338D",
+            "secondary": "#EBB700",
+            "tertiary": "#766A62"
+        },
+        "fonts": {
+            "text": "Roboto:400,400i,700,700i",
+            "heading": "Playfair+Display:400,400i",
+            "pop": "Galada"
+        }
+    },
+    "externals": {
+        "css": [
+            "https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+        ],
+        "js": [
+            "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+            "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js",
+            "https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        ]
+    },
+    "navigations": {
+        "main": {
+            "name": "Main navigation",
+            "description": "The main navigation on top of each page."
+        },
+        "highlight": {
+            "name": "Main navigation highlight",
+            "description": "The highlight of the main navigation."
+        },
+        "footer-1": {
+            "name": "Footer navigation left",
+            "description": "Navigation on the far left of the footer."
+        },
+        "footer-2": {
+            "name": "Footer navigation center-left",
+            "description": "Navigation on the center-left of the footer."
+        },
+        "footer-3": {
+            "name": "Footer navigation center-right",
+            "description": "Navigation on the center-right of the footer."
+        },
+        "footer-4": {
+            "name": "Footer navigation right",
+            "description": "Navigation on the far right of the footer."
+        }
+    },
+    "layouts": {
+        "homepage": {
+            "name": "Homepage",
+            "description": "Layout for the first page of your website.",
+            "path": "/layouts/home/index.hbs"
+        },
+        "blog": {
+            "name": "Blog",
+            "description": "Layout for the article overview page.",
+            "path": "/layouts/blog/index.hbs"
+        },
+        "article": {
+            "name": "Article",
+            "description": "Layout for the article page.",
+            "path": "/layouts/blog/article/index.hbs"
+        },
+        "page": {
+            "name": "Page",
+            "description": "Layout for a normal page.",
+            "path": "/layouts/page/index.hbs"
+        },
+        "checkout": {
+            "name": "Checkout",
+            "description": "Layout for the checkout mask.",
+            "path": "/layouts/checkout/index.hbs"
+        }
+    }
+}
