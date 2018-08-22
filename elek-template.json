@@ -1,7 +1,10 @@
 {
     "name": "Default template",
     "description": "The default template.",
-    "version": "0.0.1",
+    "version": {
+        "number": "0.0.1",
+        "client": "^1.0.0"
+    },
     "author": {
         "name": "Elek Org.",
         "url": "https://www.elek.com/"
@@ -10,7 +13,11 @@
         "name": "GNU General Public License v2 or later",
         "url": "http://www.gnu.org/licenses/gpl-2.0.html"
     },
-    "tags": ["education", "blog", "portfolio"],
+    "tags": [
+        "education",
+        "blog",
+        "portfolio"
+    ],
     "shell": "/shell.hbs",
     "styling": {
         "colors": {
@@ -23,6 +30,24 @@
             "heading": "Playfair+Display:400,400i",
             "pop": "Galada"
         }
+    },
+    "breakpoints": [
+        576,
+        768,
+        992,
+        1200
+    ],
+    "detect": {
+        "prefix": "mod_",
+        "features": [
+            "webp",
+            "ligatures",
+            "touchevents"
+        ],
+        "options": [
+            "html5shiv",
+            "html5printshiv"
+        ]
     },
     "externals": {
         "css": [
