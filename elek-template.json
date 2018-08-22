@@ -1,8 +1,10 @@
 {
     "name": "Default template",
     "description": "The default template.",
+    "source": "https://github.com/Nils-Kolvenbach/elek-default-template.git",
     "version": {
         "number": "0.0.1",
+        "description": "Just changed a few things & fixed a few bugs.",
         "client": "^1.0.0"
     },
     "author": {
